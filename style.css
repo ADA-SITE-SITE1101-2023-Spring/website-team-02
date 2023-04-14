@@ -163,3 +163,9 @@ p {
   width: 33.3%;
   height: 310px;
 }
+
+.ourteam img {
+  height: 400px;
+  width: 400px;
+  border-radius: 5px;
+}

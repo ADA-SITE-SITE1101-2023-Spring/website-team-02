@@ -169,5 +169,7 @@ p {
 }
 
 .ourteam p, figcaption {
-  text-align: right;
+  position: absolute;
+  top: 100%;
+  right: 100%;
 }

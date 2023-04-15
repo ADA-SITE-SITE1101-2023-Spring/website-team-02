@@ -1,9 +1,4 @@
 <!DOCTYPE html>
-<!-- 
-    SITE 1101 Principles of Information Systems Fall 2022 
-    (c)2022 by Name Surname 
-    Submitted in partial fulfillment of the requirements of the course.
--->
 <html lang="en">
 <head>
   <title>Hour of Code</title>
@@ -11,9 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="hourbody">
   <header>
-    <image src="media/ada_logo_white.png" height="100px" width="150px"/>
+    <image src="media/ada_logo_color.png" height="100px" width="150px"/>
     <h1>THYNK</h1>
       <nav>
         <a href="index.html">About</a>
@@ -27,27 +22,26 @@
     <section id="hourofcode">
         <article>
             <h1>Our Hour of Code Event</h1>
-            <p>As a group of four SITE students, we recently had the opportunity to organize an Hour of Code event at a state school. It was an exciting experience to be able to introduce the basics of coding and computer science to a group of young students.</p>
-            <p>We started by using Code.org, which is a fantastic platform for beginners to practice coding exercises in a visual, interactive environment. The students were engaged and eager to learn as they used drag-and-drop blocks to create simple programs and see the results of their code in real-time.</p>
-            <p>In addition to using Code.org, we also provided the students with some basic coding challenges to work on. These challenges were designed to help them develop their coding skills and see the practical applications of computer science.</p>
-            <p>Throughout the Hour of Code event, we were impressed by the enthusiasm and eagerness of the students to learn. It was a great feeling to see them gain confidence in their coding abilities as they worked through the challenges and saw their programs come to life.</p>
-            <p>Overall, it was a rewarding experience for our group to share our knowledge and passion for coding with the students. We hope that our Hour of Code event inspired the students to continue exploring the field of computer science and consider pursuing further study in the future.</p>
+            <p>As a group of four SITE students, we recently had the opportunity to organize an Hour of Code event at a state school. It was an exciting experience to be able to introduce the basics of coding and computer science to a group of young students.
+              We started by using Code.org, which is a fantastic platform for beginners to practice coding exercises in a visual, interactive environment. The students were engaged and eager to learn as they used drag-and-drop blocks to create simple programs and see the results of their code in real-time.
+              In addition to using Code.org, we also provided the students with some basic coding challenges to work on. These challenges were designed to help them develop their coding skills and see the practical applications of computer science.
+              Throughout the Hour of Code event, we were impressed by the enthusiasm and eagerness of the students to learn. It was a great feeling to see them gain confidence in their coding abilities as they worked through the challenges and saw their programs come to life.
+              Overall, it was a rewarding experience for our group to share our knowledge and passion for coding with the students. We hope that our Hour of Code event inspired the students to continue exploring the field of computer science and consider pursuing further study in the future.</p>
           </article>
     </section>
     <section>
       <h2>Memories from Event</h2>
-      <div>
-        <img id="left" class="mem" src="media/orkhan.jpg" width="100px" height="50px" alt="Orkhan looking student's screen to help">
-        <img class="mem" src="media/vusat.jpg" alt="Vusat looking student's screen to help">
-        <img id="right" class="mem" src="media/sardar.jpg" alt="Sardar and Aykhan introducing ADA University to the students">
-        <img class="mem" src="media/aykhan.jpg" alt="Aykhan looking student's screen to help">
-        <img id="left2" class="mem" src="media/withstudents.jpg" alt="Our team with students">
-        <video height="310" width="33.3%" src="media/Video.mp4" controls>Unable to play video.</video>
-      </div>
+      <div class="slider"> 
+        <img src="media/orkhan.jpg" alt="Orkhan looking student's screen to help" class="slider-image" id="slider-image">
+        <button class="slider-button" id="prev">Previous</button>
+        <button class="slider-button" id="next">Next</button>
+        <video height="450" width="600" src="HourOfCodeC.mov" controls>Unable to play video.</video>
+      </div class="slider">
+      <script src="script.js"></script>
     </section>
   </main>
   <footer>
-    <p>&copy; 2023 THYNK Team - ADA University. All rights reserved.</p>
+    &copy; 2023 THYNK Team - ADA University. All rights reserved.
   </footer>
 </body>
 </html>

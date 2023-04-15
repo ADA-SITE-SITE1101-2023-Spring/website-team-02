@@ -168,6 +168,6 @@ p {
   border-radius: 50%;
 }
 
-.ourteam p {
+.ourteam p, figcaption {
   text-align: right;
 }

@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    
     <style>
       body {
         background-color: #0077b6;
@@ -24,7 +26,7 @@
         padding: 20px;
         background-color: #fff;
         color: #0077b6;
-        border-radius: 10px;
+        border-radius: 25%;
         text-align: center;
       }
       form {
@@ -55,6 +57,17 @@
     </style>
   </head>
   <body>
+    <header>
+      <img src="teamlogobb.png" alt="THYNK Team Logo" class="team-logo">
+      <h1>THYNK</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="ourteam.html">Our Team</a>
+        <a href="hourofcode.html">Hour of Code event</a>
+        <a href="contact-us.html">Contact Us</a>
+      </nav>
+    </header>
     <h1>Contact Us</h1>
     <div class="info">
       <div>
@@ -85,9 +98,12 @@
       <input type="text" id="subject" name="subject" required>
 
       <label for="message">Message:</label>
-      <textarea id="message" name="message" required></textarea>
+      <textarea id="message" name="message" required style="height: 140px; width: 320px;"></textarea>
 
       <button type="submit">Send</button>
     </form>
+    <footer>
+      &copy; 2023 THYNK Team - ADA University. All rights reserved.
+    </footer>
   </body>
 </html>

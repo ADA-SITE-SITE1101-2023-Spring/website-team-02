@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Us</title>
+    <style>
+      body {
+        background-color: #0077b6;
+        color: #fff;
+        font-family: Arial, sans-serif;
+      }
+      h1 {
+        text-align: center;
+        margin-top: 50px;
+      }
+      .info {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 50px;
+      }
+      .info div {
+        margin: 20px;
+        padding: 20px;
+        background-color: #fff;
+        color: #0077b6;
+        border-radius: 10px;
+        text-align: center;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+      }
+      form label, form input, form textarea, form button {
+        margin: 10px;
+        font-size: 18px;
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
+      }
+      form label, form button {
+        background-color: #fff;
+        color: #0077b6;
+      }
+      form input, form textarea {
+        background-color: #f2f2f2;
+      }
+      form button:hover {
+        background-color: #0077b6;
+        color: #fff;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Contact Us</h1>
+    <div class="info">
+      <div>
+        <h2>Sardar Ziyatkhanov</h2>
+        <p>Email: sziyatkhanov17499@ada.edu.az</p>
+      </div>
+      <div>
+        <h2>Orkhan Aliyev</h2>
+        <p>Email: oaliyev18145@ada.edu.az</p>
+      </div>
+      <div>
+        <h2>Aykhan Quliyev</h2>
+        <p>Email: aguliyev12829@ada.edu.az</p>
+      </div>
+      <div>
+        <h2>Vusat Ahmadzada</h2>
+        <p>Email: vahmadzada14086@ada.edu.az</p>
+      </div>
+    </div>
+    <form action="submit-form.php" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="subject">Subject:</label>
+      <input type="text" id="subject" name="subject" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+  </body>
+</html>
